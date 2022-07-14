@@ -16,30 +16,31 @@ Este repositório tem o objetivo de divulgar os resultados dos desafios proposto
   <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
 </div>
 
-# Desafios:
-
- ❌| Desafio 1 - Blog
- ❌| Desafio 2 - JordanShoes
- ❌| Desafio 3 - One Page
- ❌| Desafio 4 - Login
- ❌| Desafio 5 - Studio Ghibli
- ❌| Desafio 6 - Loki
- ❌| Desafio 7 - Valorant
- ❌| Desafio 8 - CodeMoji
- ❌| Desafio 9 - Portfólio
- ❌| Desafio 10 - Naped
- ❌| Desafio 11 - Jogo da Memória
- ❌| Desafio 12 - La Pizza
- ❌| Desafio 13 - Arcane
- ❌| Desafio 14 - HelpDog
- ✔️| Desafio 15 - README pro perfil do GitHub
- ❌| Desafio 16 - Feliz Natal
- ❌| Desafio 17 - Kenai
- ❌| Desafio 18 - Spider-Man
- ❌| Desafio 19 - Rachi
- ❌| Desafio 20 - Portfólio 2
- ❌| Desafio 21 - XBOX
- ❌| Desafio 22 - Projetos da Comunidade
- ❌| Desafio 23 - Music Legends
- ❌| Desafio 24 - Arcane 2
- ❌| Desafio 25 - HomeYou
+## Desafios:
+<div>
+ <div>❌| Desafio 1 - Blog</div>
+ <div>❌| Desafio 2 - JordanShoes</div>
+ <div>❌| Desafio 3 - One Page</div>
+ <div>❌| Desafio 4 - Login</div>
+ <div>❌| Desafio 5 - Studio Ghibli</div>
+ <div>❌| Desafio 6 - Loki</div>
+ <div>❌| Desafio 7 - Valorant</div>
+ <div>❌| Desafio 8 - CodeMoji</div>
+ <div>❌| Desafio 9 - Portfólio</div>
+ <div>❌| Desafio 10 - Naped</div>
+ <div>❌| Desafio 11 - Jogo da Memória</div>
+ <div>❌| Desafio 12 - La Pizza</div>
+ <div>❌| Desafio 13 - Arcane</div>
+ <div>❌| Desafio 14 - HelpDog</div>
+ <div>✔️| Desafio 15 - README pro perfil do GitHub</div>
+ <div>❌| Desafio 16 - Feliz Natal</div>
+ <div>❌| Desafio 17 - Kenai</div>
+ <div>❌| Desafio 18 - Spider-Man</div>
+ <div>❌| Desafio 19 - Rachi</div>
+ <div>❌| Desafio 20 - Portfólio 2</div>
+ <div>❌| Desafio 21 - XBOX</div>
+ <div>❌| Desafio 22 - Projetos da Comunidade</div>
+ <div>❌| Desafio 23 - Music Legends</div>
+ <div>❌| Desafio 24 - Arcane 2</div>
+ <div>❌| Desafio 25 - HomeYou</div>
+</div>
