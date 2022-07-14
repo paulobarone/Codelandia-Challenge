@@ -1,0 +1,6 @@
+footer {
+  background: var(--purple);
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+}

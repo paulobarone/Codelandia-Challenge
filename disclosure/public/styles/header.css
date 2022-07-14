@@ -1,0 +1,36 @@
+header {
+  background: var(--purple);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+}
+
+.logo {
+  margin-bottom: 16px;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.header-buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.github-button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid var(--purple-light);
+}
+
+.iuricode-logo {
+  width: 150px;
+  height: 25px;
+}
+
+.iuricode-image {
+  width: 100%;
+  height: 100%;
+}
