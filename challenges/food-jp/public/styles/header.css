@@ -1,0 +1,164 @@
+#header {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+  align-items: center;
+}
+
+.logo {
+  font-family: var(--font-title);
+  font-weight: 700;
+  font-size: 1.125rem;
+}
+
+.logo span {
+  color: var(--red);
+}
+
+.account-button {
+  display: none;
+}
+
+
+
+/* Menu Hamburguer */
+.menu-hamburguer-image {
+  background: url('../img/menu-hamburguer.svg');
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+}
+
+.menu-list {
+  background: var(--white-200);
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  right: 3px;
+}
+
+.menu {
+  position: relative;
+}
+
+#menu:checked ~ .menu-list {
+  display: block;
+}
+
+#menu {
+  display: none;
+}
+
+.menu-item-title {
+  font-family: var(--font-title);
+  font-weight: 700;
+  color: var(--red);
+  text-transform: uppercase;
+}
+
+.menu-item, .menu-item-title {
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.menu-item-link {
+  color: var(--black);
+  text-decoration: none;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  #header {
+    padding: 24px 3rem;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .menu-item-link {
+    font-size: 1.25rem;
+  }
+
+  .account-button {
+    font-size: 1.25rem;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+  }
+
+  .menu-item {
+    padding: 0;
+  }
+
+  .menu-hamburguer-image, .menu-item-title {
+    display: none;
+  }
+
+  .menu-list {
+    display: flex;
+    flex-direction: row;
+    background: none;
+    position: static;
+    gap: 20px;
+  }
+  
+  .menu-list__container {
+    display: flex;
+    align-items: center;
+  }
+
+  .account-button {
+    display: flex;
+    padding: 10px 60px;
+    text-decoration: none;
+    color: var(--black);
+    border: 2px solid var(--black);
+    border-radius: 10px;
+    justify-content: center;
+  }
+}
+
+.desktop {
+  display: none;
+}
+
+
+
+@media screen and (min-width: 1280px) {
+
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    display: block;
+  }
+
+  .menu-list {
+    gap: 90px;
+  }
+
+  #header {
+    justify-content: space-between;
+    padding: 40px 350px;
+  }
+
+  .logo {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+  }
+
+  .menu-item {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+  }
+}
