@@ -45,5 +45,5 @@ Este repositório tem o objetivo de divulgar os resultados dos desafios proposto
 - [ ] Desafio 24 - Arcane 2 <br/>
 - [ ] Desafio 25 - HomeYou <br/>
 - [ ] Desafio 26 - Art. <br/>
-- [ ] Desafio 27 - FoodJP <br/>
+- [x] Desafio 27 - FoodJP <br/>
 - [ ] Desafio 28 - PSG <br/>
