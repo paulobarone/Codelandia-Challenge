@@ -1,0 +1,9 @@
+footer {
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-description a {
+  color: var(--blue);
+}
