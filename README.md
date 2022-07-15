@@ -44,4 +44,7 @@ Este repositório tem o objetivo de divulgar os resultados dos desafios proposto
  <div>❌| Desafio 23 - Music Legends</div>
  <div>❌| Desafio 24 - Arcane 2</div>
  <div>❌| Desafio 25 - HomeYou</div>
+ <div>❌| Desafio 26 - Art.</div>
+ <div>❌| Desafio 27 - FoodJP</div>
+ <div>❌| Desafio 28 - PSG</div>
 </div>
