@@ -24,8 +24,11 @@
   background: var(--blue);
   border-radius: 50px;
   color: var(--white);
-  max-width: 110px;
   box-shadow: 1px 3px 4px rgba(19, 125, 224, 0.5);;
+}
+
+.showcase-button {
+  max-width: 110px;
 }
 
 .showcase-image {
@@ -285,6 +288,6 @@
 }
 
 .send-button {
-  width: 100%;
+  width: calc(100% - (20*2));
   box-shadow: none;
 }
