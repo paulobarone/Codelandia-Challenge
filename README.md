@@ -27,7 +27,7 @@ Este repositório tem o objetivo de divulgar os resultados dos desafios proposto
 - [ ] Desafio 6 - Loki <br/>
 - [ ] Desafio 7 - Valorant <br/>
 - [ ] Desafio 8 - CodeMoji <br/>
-- [ ] Desafio 9 - Portfólio <br/>
+- [x] Desafio 9 - Portfólio <br/>
 - [x] Desafio 10 - Naped | feat. <a href="https://github.com/darrow12">@darrow12</a> <br/>
 - [ ] Desafio 11 - Jogo da Memória <br/>
 - [ ] Desafio 12 - La Pizza <br/>
