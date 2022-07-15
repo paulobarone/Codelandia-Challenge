@@ -1,0 +1,32 @@
+header {
+  background: var(--white);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 24px;
+}
+
+.menu-hamburguer-image {
+  background: url('../img/menu-hamburguer.svg');
+  display: inline-block;
+  width: 24px;
+  height: 14px;
+}
+
+.menu-list {
+  list-style: none;
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  background: var(--gray-200);
+}
+
+.menu-item {
+  padding: 10px;
+}
+
+#menu:checked ~ .menu-list {
+  display: block;
+}
