@@ -18,33 +18,32 @@ Este repositório tem o objetivo de divulgar os resultados dos desafios proposto
 </div>
 
 ## Desafios:
-<div>
- <div>❌| Desafio 1 - Blog</div>
- <div>❌| Desafio 2 - JordanShoes</div>
- <div>❌| Desafio 3 - One Page</div>
- <div>❌| Desafio 4 - Login</div>
- <div>❌| Desafio 5 - Studio Ghibli</div>
- <div>❌| Desafio 6 - Loki</div>
- <div>❌| Desafio 7 - Valorant</div>
- <div>❌| Desafio 8 - CodeMoji</div>
- <div>❌| Desafio 9 - Portfólio</div>
- <div>✔️| Desafio 10 - Naped | feat. <a href="https://github.com/darrow12">@darrow12</a></div>
- <div>❌| Desafio 11 - Jogo da Memória</div>
- <div>❌| Desafio 12 - La Pizza</div>
- <div>❌| Desafio 13 - Arcane</div>
- <div>❌| Desafio 14 - HelpDog</div>
- <div>✔️| Desafio 15 - README pro perfil do GitHub</div>
- <div>❌| Desafio 16 - Feliz Natal</div>
- <div>❌| Desafio 17 - Kenai</div>
- <div>❌| Desafio 18 - Spider-Man</div>
- <div>❌| Desafio 19 - Rachi</div>
- <div>❌| Desafio 20 - Portfólio 2</div>
- <div>❌| Desafio 21 - XBOX</div>
- <div>❌| Desafio 22 - Projetos da Comunidade</div>
- <div>❌| Desafio 23 - Music Legends</div>
- <div>❌| Desafio 24 - Arcane 2</div>
- <div>❌| Desafio 25 - HomeYou</div>
- <div>❌| Desafio 26 - Art.</div>
- <div>❌| Desafio 27 - FoodJP</div>
- <div>❌| Desafio 28 - PSG</div>
-</div>
+
+- [ ] Desafio 1 - Blog <br/>
+- [ ] Desafio 2 - JordanShoes <br/>
+- [ ] Desafio 3 - One Page <br/>
+- [ ] Desafio 4 - Login <br/>
+- [ ] Desafio 5 - Studio Ghibli <br/>
+- [ ] Desafio 6 - Loki <br/>
+- [ ] Desafio 7 - Valorant <br/>
+- [ ] Desafio 8 - CodeMoji <br/>
+- [ ] Desafio 9 - Portfólio <br/>
+- [x] Desafio 10 - Naped | feat. <a href="https://github.com/darrow12">@darrow12</a> <br/>
+- [ ] Desafio 11 - Jogo da Memória <br/>
+- [ ] Desafio 12 - La Pizza <br/>
+- [ ] Desafio 13 - Arcane <br/>
+- [ ] Desafio 14 - HelpDog <br/>
+- [x] Desafio 15 - README pro perfil do GitHub <br/>
+- [ ] Desafio 16 - Feliz Natal <br/>
+- [ ] Desafio 17 - Kenai <br/>
+- [ ] Desafio 18 - Spider-Man <br/>
+- [ ] Desafio 19 - Rachi <br/>
+- [ ] Desafio 20 - Portfólio 2 <br/>
+- [ ] Desafio 21 - XBOX <br/>
+- [ ] Desafio 22 - Projetos da Comunidade <br/>
+- [ ] Desafio 23 - Music Legends <br/>
+- [ ] Desafio 24 - Arcane 2 <br/>
+- [ ] Desafio 25 - HomeYou <br/>
+- [ ] Desafio 26 - Art. <br/>
+- [x] Desafio 27 - FoodJP <br/>
+- [ ] Desafio 28 - PSG <br/>
