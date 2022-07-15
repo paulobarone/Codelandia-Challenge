@@ -161,7 +161,7 @@
 }
 
 .plans-price {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   font-family: var(--font-terceiaria);
   font-weight: 700;
   display: flex;
@@ -193,11 +193,8 @@
 }
 
 .plans-item:nth-child(2) .plans-name {
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 40px;
   color: var(--white);
-  margin-bottom: 13px;
+  margin-bottom: 24px;
 }
 
 .plans-preferred {
@@ -207,12 +204,13 @@
   letter-spacing: 3px;
   padding: 5px 32px;
   border-radius: 15px;
-  margin-bottom: 32px;
+  margin-bottom: 24px;
 }
 
 .plans-button {
   width: 230px;
   text-align: center;
+  padding: 8px 0;
 }
 
 .plans-item:nth-child(2) .plans-price {
@@ -290,4 +288,177 @@
 .send-button {
   width: calc(100% - (20*2));
   box-shadow: none;
+}
+
+
+
+@media screen and (min-width: 1280px) {
+  #showcase {
+    padding: 70px 135px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+  }
+
+  .showcase-textgroup {
+    max-width: 574px;
+  }
+
+  .showcase-title {
+    font-size: 48px;
+    line-height: 60px;
+    margin-bottom: 50px;
+  }
+
+  .showcase-button {
+    padding: 16px 36px;
+  }
+
+  .showcase-image {
+    width: auto;
+    height: auto;
+  }
+
+
+
+  #about {
+    padding: 56px 135px 100px 135px;
+    gap: 80px;
+  }
+
+  .section-title {
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+  }
+
+  .about-list {
+    flex-direction: row;
+    gap: 90px;
+  }
+
+  .about-image {
+    margin-bottom: 30px;
+  }
+
+  .about-item-title {
+    margin-bottom: 16px;
+  }
+
+  .about-item-description {
+    font-size: 16px;
+  }
+
+
+
+  #app {
+    display: flex;
+    flex-direction: row;
+    padding: 40px 135px;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+  }
+
+  .app-textgroup {
+    width: 600px;
+  }
+
+  .app-title {
+    font-size: 32px;
+    text-align: start;
+  }
+
+  .app-description {
+    text-align: start;
+    max-width: 444px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .app-button {
+    width: auto;
+    height: auto;
+  }
+
+  .app-image {
+    display: block;
+  }
+
+
+
+
+  #plans {
+    padding: 50px 135px 100px 135px;
+  }
+
+  .plans-textgroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .plans-name {
+    margin-bottom: 13px;
+  }
+
+  .plans-preferred {
+    margin-bottom: 32px;
+  }
+
+  .plans-description {
+    max-width: 570px;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .plans-list {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .plans-item {
+    max-width: 300px;
+    padding: 32px 35px 64px 35px;
+  }
+
+  .plans-price {
+    margin-bottom: 47px;
+  }
+
+  .plans-description {
+    margin-bottom: 58px;
+  }
+
+
+
+  #support {
+    padding: 80px 135px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .support-textgroup {
+    max-width: 500px;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .support-send {
+    max-width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .send-email {
+    width: 90%;
+  }
+
+  .send-button {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+  }
 }
