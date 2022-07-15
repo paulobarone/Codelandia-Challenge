@@ -28,7 +28,7 @@ Este repositório tem o objetivo de divulgar os resultados dos desafios proposto
  <div>❌| Desafio 7 - Valorant</div>
  <div>❌| Desafio 8 - CodeMoji</div>
  <div>❌| Desafio 9 - Portfólio</div>
- <div>❌| Desafio 10 - Naped</div>
+ <div>✔️| Desafio 10 - Naped</div>
  <div>❌| Desafio 11 - Jogo da Memória</div>
  <div>❌| Desafio 12 - La Pizza</div>
  <div>❌| Desafio 13 - Arcane</div>
