@@ -1,0 +1,14 @@
+@import 'var.css';
+@import 'header.css';
+@import 'main.css';
+@import 'footer.css';
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--dark);
+    color: var(--white);
+}
+
+a {
+    text-decoration: none;
+}
