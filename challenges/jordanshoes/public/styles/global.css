@@ -7,9 +7,14 @@
   --white-200: #EBE9EA;
   --gray: #474747;
   --black-light: #181818;
+  --orange: rgba(0, 0, 0, 0.1);
 }
 
 body, textarea, button, ::placeholder {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
+}
+
+body {
+  background: var(--white);
 }
