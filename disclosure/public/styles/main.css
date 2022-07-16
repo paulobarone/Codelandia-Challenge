@@ -1,11 +1,15 @@
 main {
   flex-grow: 1;
-  padding: 24px;
   background: var(--purple-dark);
+}
+
+#projects {
+  padding: 24px;
 }
 
 .projects__textgroup {
   margin-bottom: 32px;
+  max-width: 500px;
 }
 
 .projects-title {
@@ -30,7 +34,7 @@ main {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 30px;
+  gap: 60px;
 }
 
 .site {
@@ -56,9 +60,11 @@ main {
   text-align: center;
 }
 
-.site-link:active {
+.site-link:hover {
   background: rgba(0, 0, 0, 0);
   border: 1px solid var(--purple-light);
+  transform: scale(1.1);
+  transition: 0.5s;
 }
 
 .site-github {
@@ -70,8 +76,10 @@ main {
   text-align: center;
 }
 
-.site-github:active {
+.site-github:hover {
   background: var(--purple-light);
+  transform: scale(1.1);
+  transition: 0.5s;
 }
 
 .site-buttons {
@@ -81,11 +89,16 @@ main {
 }
 
 .site-preview {
+  cursor: pointer;
   border-radius: 10px;
-  margin-bottom: 15px;
   width: 248px;
   height: 130px;
   border: 1px solid var(--purple-light);
+}
+
+.site:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
 }
 
 .site-textgroup {
@@ -96,14 +109,46 @@ main {
 }
 
 @media screen and (min-width: 424px) {
+  #projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projects__textgroup {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
   .site-preview {
     width: 344px;
     height: 180px;
-    margin-bottom: 20px;
   }
 
   .site-name {
     font-size: 24px;
     margin-bottom: 25px;
+    margin-top: 20px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  #projects {
+    padding: 50px;
+  }
+
+  .projects__textgroup {
+    max-width: 700px;
+    margin-bottom: 64px;
+  }
+
+  .projects-title {
+    font-size: 32px;
+  }
+
+  .projects-description {
+    font-size: 18px;
   }
 }
