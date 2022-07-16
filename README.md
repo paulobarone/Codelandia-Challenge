@@ -20,7 +20,7 @@ Este repositório tem o objetivo de divulgar os resultados dos desafios proposto
 
 ## Desafios:
 
-- [ ] Desafio 1 - Blog <br/>
+- [x] Desafio 1 - Blog <br/>
 - [ ] Desafio 2 - JordanShoes <br/>
 - [ ] Desafio 3 - One Page <br/>
 - [ ] Desafio 4 - Login <br/>
