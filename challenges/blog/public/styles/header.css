@@ -1,0 +1,42 @@
+header {
+  padding: 48px 20px;
+  background: linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%);
+}
+
+.first-line {
+  display: flex;
+  justify-content: space-between;
+  color: var(--white);
+}
+
+.header-input {
+  outline: none;
+  border: none;
+  width: 100%;
+  border-radius: 5px;
+  padding: 12px 0 12px 38px;
+  background: rgba(255, 255, 255, 0.2);
+  background-blend-mode: overlay;
+  color: var(--white);
+}
+
+.header-input::placeholder {
+  color: var(--white);
+}
+
+.header-input {
+  outline: none;
+  border: none;
+  width: 100vw;
+  border-radius: 5px;
+  padding: 12px 0 12px 38px;
+  background: rgba(255, 255, 255, 0.2);
+  background-blend-mode: overlay;
+  color: var(--white);
+}
+
+.lupa {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}

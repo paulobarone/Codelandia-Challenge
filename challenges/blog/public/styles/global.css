@@ -1,0 +1,20 @@
+@import url('header.css');
+@import url('main.css');
+
+:root {
+  --white: #FFFFFF;
+
+
+  --fonte-principal: 'Lexend Deca', sans-serif;
+  --fonte-secundaria: 'Inter', sans-serif;
+}
+
+body, button, textarea, ::placeholder {
+  font-family: var(--fonte-principal);
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
