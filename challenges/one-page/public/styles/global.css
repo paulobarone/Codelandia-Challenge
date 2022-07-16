@@ -1,0 +1,32 @@
+@import url(./header.css);
+@import url(./main.css);
+
+:root {
+  --purple: #6C63FF;
+  --purple-light: #D7D4FF;
+  --white: #FFFFFF;
+  --white-200: #F9F9F9;
+  --gray: #555555;
+  --gray-200: #6E7275BD;
+  --gray-dark: #2A2A2A;
+
+  --card-red: #FF6363;
+  --card-cyan: #63ECFF;
+  --card-purple: #F263FF;
+  --card-green: #63FF73;
+  --card-yellow: #FFDD63;
+  --card-blue: #6663FF;
+
+  --first-font: 'Merriweather', sans-serif;
+  --second-font: 'Lato', sans-serif;
+}
+
+.title {
+  font-family: var(--first-font);
+  color: var(--gray-dark);
+}
+
+.description {
+  font-family: var(--second-font);
+  color: var(--gray);
+}
