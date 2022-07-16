@@ -1,0 +1,15 @@
+@import url('./header.css');
+@import url('./main.css');
+@import url('./footer.css');
+
+:root {
+  --white: #F9F9F9;
+  --white-200: #EBE9EA;
+  --gray: #474747;
+  --black-light: #181818;
+}
+
+body, textarea, button, ::placeholder {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
