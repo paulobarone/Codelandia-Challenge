@@ -21,7 +21,7 @@ Este repositório tem o objetivo de divulgar os resultados dos desafios proposto
 ## Desafios:
 
 - [x] Desafio 1 - Blog <br/>
-- [ ] Desafio 2 - JordanShoes <br/>
+- [x] Desafio 2 - JordanShoes <br/>
 - [ ] Desafio 3 - One Page <br/>
 - [ ] Desafio 4 - Login <br/>
 - [ ] Desafio 5 - Studio Ghibli <br/>
