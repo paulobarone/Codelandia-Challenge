@@ -8,6 +8,7 @@ Este repositório tem o objetivo de divulgar os resultados dos desafios proposto
   <li>Pode haver contribuintes para certos desafios;</li>
   <li>O figma dos desafios estão disponíveis <a href="https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=624%3A2">aqui</a>;</li>
   <li>Você pode visualizar os desafios através <a href="https://paulobarone.github.io/Codelandia-Challenge/disclosure/src/pages/">deste</a> link;</li>
+  <li>Todos os projetos finalizados podem receber futuras atualizações;</li>
 </ul>
 
 ## Tecnologias utilizadas:
