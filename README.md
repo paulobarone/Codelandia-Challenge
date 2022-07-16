@@ -1,4 +1,4 @@
-# Codelandia Challenge
+# Codelândia Challenge
 
 Este repositório tem o objetivo de divulgar os resultados dos desafios propostos pelo <a href="https://github.com/iuricode">Iuri Code</a>.
 
