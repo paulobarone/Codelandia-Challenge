@@ -1,0 +1,27 @@
+footer {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-description {
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.footer-description a {
+  color: var(--blue);
+}
+
+
+
+@media screen and (min-width: 1280px) {
+  footer {
+    padding: 40px 0;
+  }
+
+  .footer-description {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}

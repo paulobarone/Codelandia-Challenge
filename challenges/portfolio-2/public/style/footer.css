@@ -1,0 +1,13 @@
+#footer__container {
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+    justify-content: space-between;
+}
+
+.footer-credits {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Neon</title>
+    <link rel="stylesheet" href="../../public/style/reset.css">
+    <link rel="stylesheet" href="../../public/style/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header__container">
+        <h1 class="logo">Portfólio</h1>
+        <div class="nav-bar">
+            <div class="mobile">
+                <input type="checkbox" class="nav-bar__checkbox" id="menu">
+                <label for="menu">
+                    <img src="../../public/img/menu-hamburguer.svg" alt="Menu" class="menu-hamburguer">
+                </label>
+                <ul class="nav-bar__mobile__items">
+                    <li class="nav-bar__item nav-bar__title">Categorias</li>
+                    <li class="nav-bar__item"><a href="#" class="nav-bar__link">Home</a></li>
+                    <li class="nav-bar__item"><a href="#" class="nav-bar__link">Sobre mim</a></li>
+                    <li class="nav-bar__item"><a href="#" class="nav-bar__link">Experiência</a></li>
+                    <li class="nav-bar__item"><a href="#" class="nav-bar__link">Projetos</a></li>
+                </ul>
+            </div>
+            <ul class="nav-bar__items">
+                <li class="nav-bar__item"><a href="#" class="nav-bar__link">Home</a></li>
+                <li class="nav-bar__item"><a href="#" class="nav-bar__link">Sobre mim</a></li>
+                <li class="nav-bar__item"><a href="#" class="nav-bar__link">Experiência</a></li>
+                <li class="nav-bar__item"><a href="#" class="nav-bar__link">Projetos</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main id="main__container">
+        <section id="showcase__container">
+            <div class="showcase-textgroup">
+                <h2 class="title showcase-title">Olá, eu sou <span>Iuri Silva</span></h2>
+                <p class="description showcase-description">Desenvolvedor Front-End & UI Designer</p>
+                <div class="showcase-buttons">
+                    <div class="purple-button__container button__container">
+                        <a href="#" class="button purple-button dark-button"><img src="../../public/img/linkedin.svg" alt="Linkedin">Linkedin</a>
+                    </div>
+                    <div class="pink-button__container button__container">
+                        <a href="#" class="button pink-button dark-button"><img src="../../public/img/github.svg" alt="Github">Github</a>
+                    </div>
+                </div>
+            </div>
+            <img src="../../public/img/loop-neon.png" alt="Loop Neon" class="showcase-image">
+        </section>
+        <section id="about__container">
+            <div class="about__image-container">
+                <span class="image about__image">FOTO</span>
+            </div>
+            <div class="about-textgroup">
+                <h2 class="title about__title">Sobre mim</h2>
+                <address class="about__address">Guarantã, Brasil</address>
+                <p class="description about__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id egestas dui. Nullam finibus aliquam enim quis faucibus. Aenean ac commodo dolor, nec bibendum velit.</p>
+                <div class="about-icons">
+                    <img src="../../public/img/twitter.svg" alt="Twitter" class="about-icon">
+                    <img src="../../public/img/twitch.svg" alt="Twitch" class="about-icon">
+                    <img src="../../public/img/youtube.svg" alt="Youtube" class="about-icon">
+                    <img src="../../public/img/figma.svg" alt="Figma" class="about-icon">
+                    <img src="../../public/img/codepen.svg" alt="CodePen" class="about-icon">
+                    <img src="../../public/img/facebook.svg" alt="Facebook" class="about-icon">
+                </div>
+                <div class="about-buttons">
+                    <div class="pink-button__container button__container">
+                        <a href="#" class="button pink-button dark-200-button"><img src="../../public/img/cloud.svg" alt="Download">Currículo</a>
+                    </div>
+                    <div class="purple-button__container button__container">
+                        <a href="#" class="button purple-button dark-200-button"><img src="../../public/img/mail.svg" alt="E-mail">E-mail</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="experience__container">
+            <h2 class="title experience-title">Experiência</h2>
+            <div class="experience-info-container">
+                <div class="experience-aside">
+                    <span class="aside-name aside-name-focus">Digital House</span>
+                    <span class="aside-name">Código Fonte TV</span>
+                    <span class="aside-name pc">Zuplae</span>
+                    <span class="aside-name pc">ContWeb</span>
+                    <span class="aside-name pc">iuricode</span>
+                    <span class="aside-name pc">Freelancer</span>
+                </div>
+                <div class="experience-textgroup">
+                    <h3 class="title-second experience-title">Professor conteudista em Frontend</h3>
+                    <div class="experience-info">
+                        <p class="experience-name">Digital House</p>
+                        <span class="experience-date">Nov 2021 - Atual</span>
+                    </div>
+                    <p class="description experience-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu purus risus. Ut rutrum sollicitudin purus in accumsan. Proin at mattis metus. Nullam sit amet mauris condimentum, volutpat augue in, mattis urna.</p>
+                </div>
+            </div>
+        </section>
+        <section id="projects__container">
+            <h2 class="title projects-title">Projetos</h2>
+            <div class="projects__items-container">
+                <div class="projects__item">
+                    <div class="projects__image-container">
+                        <span class="image projects__image">FOTO</span>
+                    </div>
+                    <h4 class="title-second projects-title">Nome do projeto</h4>
+                    <p class="description projects-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit interdum odio eu varius.</p>
+                    <span class="projects-tecnologys">Tecnologias usadas no projeto</span>
+                    <div class="purple-button__container button__container">
+                        <a href="#" class="button purple-button dark-200-button"><img src="../../public/img/clip.svg" alt="Clip">Visualizar</a>
+                    </div>
+                </div>
+                <div class="projects__item">
+                    <div class="projects__image-container">
+                        <span class="image projects__image">FOTO</span>
+                    </div>
+                    <h4 class="title-second projects-title">Nome do projeto</h4>
+                    <p class="description projects-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit interdum odio eu varius.</p>
+                    <span class="projects-tecnologys">Tecnologias usadas no projeto</span>
+                    <div class="purple-button__container button__container">
+                        <a href="#" class="button purple-button dark-200-button"><img src="../../public/img/clip.svg" alt="Clip">Visualizar</a>
+                    </div>
+                </div>
+                <div class="projects__item">
+                    <div class="projects__image-container">
+                        <span class="image projects__image">FOTO</span>
+                    </div>
+                    <h4 class="title-second projects-title">Nome do projeto</h4>
+                    <p class="description projects-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit interdum odio eu varius.</p>
+                    <span class="projects-tecnologys">Tecnologias usadas no projeto</span>
+                    <div class="purple-button__container button__container">
+                        <a href="#" class="button purple-button dark-200-button"><img src="../../public/img/clip.svg" alt="Clip">Visualizar</a>
+                    </div>
+                </div>
+                <div class="projects__item">
+                    <div class="projects__image-container">
+                        <span class="image projects__image">FOTO</span>
+                    </div>
+                    <h4 class="title-second projects-title">Nome do projeto</h4>
+                    <p class="description projects-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit interdum odio eu varius.</p>
+                    <span class="projects-tecnologys">Tecnologias usadas no projeto</span>
+                    <div class="purple-button__container button__container">
+                        <a href="#" class="button purple-button dark-200-button"><img src="../../public/img/clip.svg" alt="Clip">Visualizar</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer__container">
+        <p class="footer-info">&copy; 2022 - Iuri Silva</p>
+        <p class="footer-credits">Powered by <img src="../../public/img/logo.svg" alt="Logo"></p>
+    </footer>
+</body>
+</html>

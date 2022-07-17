@@ -1,0 +1,25 @@
+@import url('header.css');
+@import url('main.css');
+@import url('footer.css');
+
+:root {
+  --white: #FFFFFF;
+  --white-200: #EFF8FF;
+  --gray: #6E7275;
+  --gray-200: #DBDBDB;
+  --black: #293145;
+  --blue: #0F9AFE;
+
+  --font-principal: 'Sora', sans-serif; 
+  --font-secundaria: 'Inter', sans-serif; 
+  --font-terceiaria: 'Roboto', sans-serif;
+}
+
+body, button, textarea, ::placeholder {
+  font-family: var(--font-principal);
+  color: var(--black);
+}
+
+a {
+  text-decoration: none;
+}

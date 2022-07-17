@@ -1,0 +1,26 @@
+:root {
+  --white: #FEFBFB;
+  --white-200: #C4C4C4;
+  --white-400: #989898;
+  --gray-200: #282830;
+  --gray-400: #1A1A29;
+  --purple: #8257E6;
+  --dark: #13131F;
+
+  --fonte-principal: 'Lexend Deca';
+  --fonte-secundaria: 'Inter';
+  
+  --gradient-image: linear-gradient(180deg, var(--dark) 0%, rgba(19, 19, 31, 0) 100%);
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-size: 16px;
+  font-weight: 400;
+  background: var(--dark);
+  font-family: 'Lexend Deca', sans-serif;
+  color: var(--white);
+}

@@ -1,0 +1,23 @@
+@import url('header.css');
+@import url('main.css');
+@import url('footer.css');
+@import url('responsive.css');
+
+:root {
+    --blue: #00D2DF;
+    --pink: #D24074;
+    --gradient-pink: linear-gradient(130deg, rgba(210,64,116,1) 0%, rgba(101,24,180,1) 100%);;
+    --gradient-purple: linear-gradient(15deg, rgba(147,88,247,1) 0%, rgba(16,215,226,1) 100%);
+    --dark: #121212;
+    --dark-200: #151515;
+    --gray-light: #C4C4C4;
+    --light: #FFFFFF;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    background: var(--dark);
+    color: var(--light);
+}

@@ -1,0 +1,261 @@
+/* Showcase */
+#showcase__container {
+    padding: 24px;
+}
+
+.showcase-image {
+    display: none;
+}
+
+.showcase-textgroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.showcase-textgroup .showcase-description {
+    color: var(--light);
+    font-size: 1.15em;
+    font-weight: 600;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.showcase-title {
+    text-transform: uppercase;
+    line-height: 60px;
+    margin-bottom: 8px;
+}
+
+
+
+.showcase-title span {
+    display: block;
+    line-height: 40px;
+    font-size: 2em;
+    line-height: 30px;
+    color: var(--blue);
+    margin-bottom: 8px;
+}
+
+.showcase-buttons, .about-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.showcase-buttons .button__container {
+    max-width: 150px;
+}
+
+.about-buttons .button__container {
+    max-width: 150px;
+}
+
+.button {
+    color: var(--light);
+    font-weight: 600;
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 30px;
+    border-radius: 5px;
+    width: auto;
+    justify-content: center;
+    gap: 10px;
+}
+
+.dark-button {
+    background: var(--dark);
+}
+
+.dark-200-button {
+    background: var(--dark-200);
+}
+
+.purple-button__container {
+    position: relative;
+    background: var(--gradient-purple);
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.pink-button__container {
+    width: 100%;
+    position: relative;
+    background: var(--gradient-pink);
+    padding: 3px;
+    border-radius: 5px;
+}
+
+
+
+
+/* About */
+
+#about__container {
+    background: var(--dark-200);
+    padding: 24px;
+}
+
+.about__image {
+    display: none;
+}
+
+.about-textgroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.about__address {
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.description {
+    color: var(--gray-light);
+    font-size: 0.875em;
+    font-weight: 300;
+    line-height: 20px;
+    margin-bottom: 32px;
+}
+
+.about-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 0 10px;
+    margin-bottom: 32px;
+}
+
+.about-buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.about__buttons img {
+    margin-right: 10px;
+}
+
+
+
+
+/* Experience */
+
+#experience__container {
+    display: flex;
+    flex-direction: column ;
+    padding: 24px;
+}
+
+.pc {
+    display: none;
+}
+
+.experience-aside {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    border-bottom: 1px solid var(--dark-200);
+    margin: 24px 0;
+}
+
+.aside-name {
+    color: var(--gray-light);
+    padding: 24px;
+}
+
+.aside-name-focus {
+    color: var(--light);
+    background: var(--dark-200);
+    border-bottom: 2px solid var(--blue);
+}
+
+.title-second {
+    color: var(--light);
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.experience-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.experience-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.experience-description {
+    margin-bottom: 0;
+}
+
+.experience-name {
+    font-size: 0.875em;
+    font-weight: 500;
+    color: var(--blue);
+}
+
+.experience-date {
+    font-size: 0.75em;
+    font-weight: 500;
+}
+
+
+/* Projects */
+
+#projects__container {
+    padding: 24px;
+    background: var(--dark-200);
+}
+
+.projects__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.projects-title {
+    margin-top: 20px;
+    margin-bottom: 24px;
+}
+
+.projects__image-container {
+    height: 130px;
+    background: var(--dark);
+    border-left: 2px solid var(--blue);
+    border-radius: 2.6px;
+}
+
+.projects__image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects__image {
+    color: var(--blue);
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+.projects-tecnologys {
+    color: var(--blue);
+    font-weight: 500;
+    font-size: 0.875em;
+    margin-bottom: 32px;
+}
+
+.projects__item .button__container{
+    max-width: 100%;
+    margin-bottom: 40px;
+}
