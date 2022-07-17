@@ -2,9 +2,7 @@
   display: flex;
   align-items: center;
 
-  background-image: url('../../public/img/background.png');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url('../../public/img/background.png') center / cover no-repeat;
 
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: overlay;
