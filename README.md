@@ -35,7 +35,7 @@ Este repositório tem o objetivo de divulgar os resultados dos desafios proposto
 - [ ] Desafio 13 - Arcane <br/>
 - [ ] Desafio 14 - HelpDog <br/>
 - [x] Desafio 15 - README pro perfil do GitHub <br/>
-- [ ] Desafio 16 - Feliz Natal <br/>
+- [x] Desafio 16 - Feliz Natal <br/>
 - [ ] Desafio 17 - Kenai <br/>
 - [ ] Desafio 18 - Spider-Man <br/>
 - [x] Desafio 19 - Rachi <br/>
