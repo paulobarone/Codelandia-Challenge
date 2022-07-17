@@ -1,0 +1,33 @@
+footer .logo {
+  display: none;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 24px;
+}
+
+.social-list {
+  display: flex;
+  gap: 40px;
+}
+
+.social-item {
+  width: 30px;
+  height: 30px;
+  background: url('../../public/img/circle.svg') no-repeat center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.social-image {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  z-index: 1;
+}
