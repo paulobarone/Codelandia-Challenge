@@ -39,7 +39,7 @@ Este repositório tem o objetivo de divulgar os resultados dos desafios proposto
 - [ ] Desafio 17 - Kenai <br/>
 - [ ] Desafio 18 - Spider-Man <br/>
 - [x] Desafio 19 - Rachi <br/>
-- [ ] Desafio 20 - Portfólio 2 <br/>
+- [x] Desafio 20 - Portfólio 2 <br/>
 - [ ] Desafio 21 - XBOX <br/>
 - [ ] Desafio 22 - Projetos da Comunidade <br/>
 - [ ] Desafio 23 - Music Legends <br/>
