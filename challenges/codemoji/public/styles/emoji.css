@@ -1,0 +1,201 @@
+
+/* Emoji Top */
+.emoji_top-container {
+  position: relative;
+  width: 100%;
+}
+
+/* Quadrado invertido */
+.quadrado-invertido__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--linear-blue);
+  width: 200px;
+  height: 200px;
+  transform: rotate(45deg);
+
+  position: absolute;
+  left: 10%;
+  top: 80px;
+}
+
+.quadrado-invertido-image {
+  transform: rotate(-45deg);
+}
+
+
+/* Círculo Amarelo */
+.circulo-amarelo__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--linear-yellow);
+  clip-path: circle();
+  width: 200px;
+  height: 200px;
+
+  position: absolute;
+  top: 50px;
+  right: 10%;
+}
+
+
+/* Emoji Bottom */
+.emoji_bottom-container {
+  position: relative;
+  width: 100%;
+}
+
+
+/* Quadrado */
+.quadrado__container {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background: var(--linear-red);
+  border-radius: 30px;
+  width: 200px;
+  height: 200px;
+  
+  position: absolute;
+  top: -150px;
+  left: 15%;
+}
+
+
+/* Círculo Roxo */
+.circulo-roxo__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--linear-purple);
+  clip-path: circle();
+  width: 200px;
+  height: 200px;
+
+  position: absolute;
+  top: -120px;
+  left: 15%;
+}
+
+
+/* Triângulo */
+.triangulo__container {
+  position: absolute;
+  top: -150px;
+  right: 10%;
+}
+
+.triangulo {
+  background: var(--linear-green);
+  width: 180px;
+  height: 160px;
+  clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+}
+
+.triangulo-image {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+
+
+
+/* Emojis */
+
+.emoji-background {
+  width: 100px;
+  height: 100px;
+}
+
+.emoji-background-triangulo {
+  width: 100px;
+  height: 90px;
+}
+
+.emoji-image {
+  width: 82.5px;
+  height: 82.5px;
+}
+
+
+
+@media screen and (min-width: 1280px) {
+  .quadrado__container {
+    display: flex;
+    top: -380px;
+    left: 150px;
+  }
+
+  .circulo-roxo__container {
+    top: -280px;
+    left: 50%;
+  }
+
+  .triangulo__container {
+    top: -450px;
+  }
+
+
+
+
+  .quadrado-invertido__container {
+    width: 150px;
+    height: 150px;
+  }
+
+  .quadrado-invertido-image {
+    width: 100px;
+    height: 100px;
+  }
+
+  
+
+  .circulo-amarelo__container {
+    width: 150px;
+    height: 150px;
+  }
+
+  .circulo-amarelo-image {
+    width: 100px;
+    height: 100px;
+  }
+
+
+
+  .quadrado__container {
+    width: 150px;
+    height: 150px;
+  }
+
+  .quadrado-image {
+    width: 100px;
+    height: 100px;
+  }
+
+
+  .circulo-roxo__container {
+    width: 150px;
+    height: 150px;
+  }
+
+  .circulo-roxo-image {
+    width: 100px;
+    height: 100px;
+  }
+
+
+  .triangulo {
+    width: 150px;
+    height: 150px;
+  }
+
+  .triangulo-image {
+    width: 120px;
+    height: 120px;
+    left: 15px;
+    top: 23px;
+  }
+}

@@ -1,0 +1,118 @@
+main {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+#showcase {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.showcase-textgroup {
+  padding: 200px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.showcase-title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: center;
+  margin-bottom: 24px;
+  color: var(--gray);
+  padding: 0 24px;
+}
+
+.showcase-description {
+  font-family: var(--second-font);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  margin-bottom: 24px;
+  color: var(--gray);
+}
+
+.showcase-buttons-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.showcase-button {
+  font-family: var(--second-font);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--white);
+  background: var(--purple);
+  border-radius: 6px;
+  text-decoration: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  width: 144px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.showcase-see-more {
+  font-family: var(--second-font);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--gray);
+  border: 2px solid var(--white-200);
+  border-radius: 6px;
+  text-decoration: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  width: 144px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+
+@media screen and (min-width: 1280px) {
+
+  .showcase-description {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .showcase-title {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: center;
+    margin-bottom: 120px;
+  }
+
+  .showcase-textgroup {
+    max-width: 1200px;
+    padding: 200px  24px 400px 24px;
+  }
+
+  .showcase-buttons-container {
+    justify-content: center;
+    gap: 60px;
+  }
+
+  .showcase-button {
+    width: 230px;
+    font-size: 20px;
+    padding: 15px 0;
+  }
+
+  .showcase-see-more {
+    width: 230px;
+    font-size: 20px;
+    padding: 15px 0;
+  }
+}

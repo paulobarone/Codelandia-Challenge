@@ -1,0 +1,37 @@
+@import url('./header.css');
+@import url('./main.css');
+@import url('./emoji.css');
+@import url('./footer.css');
+
+
+:root {
+  --purple: #6610F2;
+  --white: #F9F9F9;
+  --white-200: #EAEAEA;
+  --gray: #2F2F2F;
+
+  --first-font: 'Sen', sans-serif;
+  --second-font: 'Inter', sans-serif;
+  
+  --linear-blue: linear-gradient(136.92deg, #2DC7ED 3.14%, rgba(45, 199, 237, 0) 100%);
+  --linear-yellow: linear-gradient(270deg, #F2C94C 0%, rgba(242, 201, 76, 0) 100%);
+  --linear-red: linear-gradient(136.92deg, #EF7C89 3.14%, rgba(239, 124, 137, 0) 100%);
+  --linear-purple: linear-gradient(270deg, #7248EC 0%, rgba(114, 72, 236, 0) 100%);
+  --linear-green: linear-gradient(180deg, #00E861 0%, rgba(0, 232, 97, 0) 100%);
+}
+
+body, button, textarea, ::placeholder {
+  font-family: var(--first-font);
+  background: var(--white);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
