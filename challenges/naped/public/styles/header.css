@@ -72,6 +72,12 @@ header {
   width: 100%;
 }
 
+.header-right {
+  display: display;
+  justify-content: center;
+  flex-direction: row;
+}
+
 .header__my-account:active {
   background: var(--purple);
 }
