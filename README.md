@@ -31,7 +31,7 @@ Este repositório tem o objetivo de divulgar os resultados dos desafios proposto
 - [x] Desafio 9 - Portfólio <br/>
 - [x] Desafio 10 - Naped | feat. <a href="https://github.com/darrow12">@darrow12</a> <br/>
 - [ ] Desafio 11 - Jogo da Memória <br/>
-- [ ] Desafio 12 - La Pizza <br/>
+- [x] Desafio 12 - La Pizza <br/>
 - [ ] Desafio 13 - Arcane <br/>
 - [ ] Desafio 14 - HelpDog <br/>
 - [x] Desafio 15 - README pro perfil do GitHub <br/>
