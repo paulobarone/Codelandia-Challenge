@@ -1,0 +1,30 @@
+header {
+  background: url('../../public/img/background.png') no-repeat center/cover;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-logo {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 50px;
+  text-align: center;
+  color: var(--white);
+}
+
+.yellow { color: var(--yellow); }
+.red { color: var(--red); }
+.green { color: var(--green); }
+
+@media screen and (min-width: 1280px) {
+  header {
+    height: 500px;
+  }
+  
+  .header-logo {
+    font-size: 96px;
+    line-height: 120px;
+  }
+}

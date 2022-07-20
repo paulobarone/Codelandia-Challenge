@@ -4,9 +4,15 @@
   --red: #CF3031;
   --pink: #FFD4C9;
 
-  --white: #FEF6F4;
+  --white: #FCFCFC;
+  --white-200: #FEF6F4;
   --gray: #616161;
   --gray-200: #2E2E2E;
 
   --first-font: 'Sora', sans-serif;
+}
+
+body, button, a, textarea, ::placeholder {
+  font-family: var(--first-font);
+  color: var(--gray-200);
 }

@@ -1,0 +1,17 @@
+footer p {
+  text-transform: uppercase;
+  font-size: 12px;
+  text-align: center;
+  padding: 24px 0;
+}
+
+footer p a {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 1280px) {
+  footer p {
+    font-size: 14px;
+  }
+}

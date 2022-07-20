@@ -1,0 +1,278 @@
+.single-image-background {
+  display: none;
+}
+
+#products {
+  padding: 40px 24px 70px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.products-title {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-bottom: 90px;
+  text-align: center;
+}
+
+.products-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+}
+
+.products-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--white-200);
+  border-radius: 25px;
+  padding: 70px 50px 40px 50px;
+  position: relative;
+  max-width: 256px;
+}
+
+.products-item:last-child {
+  display: none;
+}
+
+.products-item-image {
+  position: absolute;
+  top: 0;
+  transform: translate(0, -50%);
+}
+
+.products-item-heart {
+  background: var(--pink);
+  border: 2px solid var(--red);
+  border-radius: 14px;
+  padding: 10px;
+
+
+  position: absolute;
+  transform: translate(0, -50%);
+  top: 0;
+  right: 44px;
+}
+
+.products-item-name {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.products-item-description {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: var(--gray);
+  margin-bottom: 28px;
+}
+
+.products-item-price {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  color: var(--gray-200);
+}
+
+.products-item-button {
+  position: absolute;
+  bottom: -15px;
+}
+
+.button {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 15px;
+  background: var(--yellow);
+  border: none;
+  padding: 8px 32px;
+  border-radius: 25px;
+}
+
+
+
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: var(--white);
+  padding: 32px 24px;
+}
+
+.about-title {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about-description {
+  color: var(--gray-200);
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.about-button {
+  text-decoration: none;
+  width: 100px;
+  padding: 8px 20px;
+
+}
+
+.about-image {
+  display: none;
+}
+
+.plant {
+  left: 0;
+  top: -50px;
+  z-index: -1;
+}
+
+.fish {
+  margin-top: -6em;
+  margin-left: -40em;
+  z-index: -1;
+}
+
+.mushroom {
+  margin-top: -6em;
+  margin-left: 50em;
+  z-index: -1;
+}
+
+.leaf {
+  margin-top: 12em;
+  right: 1em;
+  z-index: -1;
+}
+
+.chili {
+  margin-top: 30em;
+  left: 5em;
+  z-index: -1;
+}
+
+.tomato {
+  bottom: 0;
+  margin-right: -60em;
+  transform: translate(0, 50%);
+  z-index: 10;
+}
+
+.pizza-container {
+  background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 100%);
+  border-radius: 50%;
+  padding: 3px;
+  box-shadow: 0px 3px 3px 0px #9F3E3E40;
+  top: 30px;
+  left: 0px;
+  transform: translate(-50%, 0);
+}
+
+.spatula {
+  bottom: 3em;
+  right: 8em;
+  z-index: -1;
+}
+
+@media screen and (min-width: 768px) {
+
+  .products-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .products-item:last-child {
+    display: flex;
+  }
+
+  .about-description {
+    max-width: 600px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+
+  .single-image-background {
+    display: block;
+    position: absolute;
+  }
+
+  .products-item-heart {
+    right: 16px;
+  }
+
+  #products {
+    padding: 140px 100px 220px 100px;
+    position: relative;
+  }
+
+  .products-title {
+    font-size: 45px;
+    line-height: 45px;
+  }
+
+  .products-list {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+  }
+
+  .products-item {
+    max-height: 275px;
+    padding: 76px 38px;
+  }
+
+  #about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+    gap: 100px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .about-title, .about-description {
+    margin-bottom: 24px;
+  }
+
+  .about-title {
+    text-align: start;
+    font-size: 36px;
+    line-height: 45px;
+  }
+
+  .about-textgroup {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .about-description {
+    text-align: start;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .about-image {
+    display: block;
+  }
+
+  .about-image-container {
+    position: relative;
+  }
+}
