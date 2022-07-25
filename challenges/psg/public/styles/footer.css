@@ -1,0 +1,34 @@
+footer {
+  background: var(--dark);
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  padding: 50px;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-content-title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  color: var(--white);
+}
+
+.footer-item-title {
+  margin-bottom: 32px;
+}
+
+.footer-content {
+  color: var(--white);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.footer-item {
+  margin-bottom: 23px;
+}

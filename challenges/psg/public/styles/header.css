@@ -1,0 +1,78 @@
+header {
+  background: url('../img/neymar-background.png');
+  display: grid;
+  height: 800px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 40px 0;
+  height: 50px;
+}
+
+.menu-list {
+  display: flex;
+  gap: 48px;
+}
+
+.menu-item-content {
+  color: var(--white);
+}
+
+.buttons-container {
+  display: flex;
+  gap: 51px;
+}
+
+.button {
+  text-transform: uppercase;
+  border: none;
+  background: none;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.login-button {
+  background: none;
+  border: none;
+}
+
+.btn2 {
+  background: var(--red);
+  color: var(--white);
+  padding: 12px 22px;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#showcase {
+  display: flex;
+  justify-content: center;
+}
+
+.showcase-textgroup {
+  max-width: 460px;
+  margin-right: 50rem;
+}
+
+.showcase-title {
+  font-weight: 700;
+  font-size: 78px;
+  font-style: italic;
+  line-height: 100px;
+  color: var(--white);
+  margin-bottom: 18px;
+}
+
+.showcase-description {
+  font-weight: 500;
+  font-size: 24px;
+  font-style: italic;
+  line-height: 40px;
+  color: var(--white);
+  margin-bottom: 48px;
+}

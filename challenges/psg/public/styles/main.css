@@ -1,0 +1,129 @@
+#scoreboard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 0;
+  gap: 35px;
+}
+
+.first-team, .second-team {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.score {
+  color: var(--dark);
+  font-weight: 600;
+  font-size: 62px;
+}
+
+.team-name {
+  color: var(--dark);
+  font-weight: 600;
+  font-size: 32px;
+}
+
+
+
+#about {
+  background: url('../img/camp-background.png');
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-textgroup {
+  background: var(--white);
+  color: var(-dark);
+  padding: 40px;
+  max-width: 1020px;
+}
+
+.about-title {
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 20px;
+  padding-left: 16px;
+  text-transform: uppercase;
+  border-left: solid 3px var(--red);
+}
+
+.about-description {
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 5px;
+  color: var(--gray);
+}
+
+.about-button {
+  color: var(--red);
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 0;
+  margin-top: 36px;
+}
+
+
+#recent-news {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 125px 200px;
+}
+
+.recent-news-title {
+  margin-bottom: 56px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 20px;
+  padding-left: 16px;
+  text-transform: uppercase;
+  border-left: solid 3px var(--red);
+  text-align: left;
+  width: 1228px;
+}
+
+.recent-news-list {
+  display: flex;
+  gap: 20px;
+}
+
+.recent-news-item-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0;
+}
+
+.type {
+  color: var(--red);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.date {
+  color: #0B142173;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.recent-news-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--dark);
+}
+
+.recent-news-button {
+  margin-top: 50px;
+  font-size: 18px;
+  font-weight: 600;
+}

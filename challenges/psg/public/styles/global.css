@@ -5,3 +5,17 @@
   --white: #F9F9F9;
   --first-font: 'Inter', sans-serif;
 }
+
+body, button, textarea, ::placeholder {
+  font-family: var(--first-font);
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
