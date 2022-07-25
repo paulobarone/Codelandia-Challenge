@@ -48,4 +48,4 @@ Este repositório tem o objetivo de divulgar os resultados dos desafios proposto
 - [ ] Desafio 25 - HomeYou <br/>
 - [ ] Desafio 26 - Art. <br/>
 - [x] Desafio 27 - FoodJP <br/>
-- [ ] Desafio 28 - PSG <br/>
+- [x] Desafio 28 - PSG <br/>
