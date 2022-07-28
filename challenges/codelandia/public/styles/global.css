@@ -1,0 +1,17 @@
+:root {
+  --purple: #873EFF;
+  --green: #04D361;
+  --dark: #0E091B;
+  --dark-200: #171228;
+  --gray: #AEAEAE;
+  --white: #F9f9f9;
+
+  --font-logo: 'Josefin Sans', sans-serif;
+  --font-primary: 'IBM Plex Mono', sans-serif;
+  --font-secondary: 'DM Sans', sans-serif;
+}
+
+body, button, a, textarea, ::placeholder {
+  font-family: var(--font-primary);
+  text-decoration: none;
+}
