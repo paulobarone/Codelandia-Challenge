@@ -15,3 +15,11 @@ body, button, a, textarea, ::placeholder {
   font-family: var(--font-primary);
   text-decoration: none;
 }
+
+body {
+  background: var(--dark);
+}
+
+* {
+  box-sizing: border-box;
+}
