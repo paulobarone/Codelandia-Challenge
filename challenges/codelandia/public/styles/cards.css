@@ -10,11 +10,10 @@ img {
 }
 
 .sites__container {
-  display: grid;
-  place-items: center;
-  row-gap: 22px;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
 }
 
 .site {
@@ -83,10 +82,13 @@ i {
   color: var(--white);
 }
 
-@media screen and (min-width: 768px) {
-  .sites__container {
-    place-items: center;
-    gap: 50px;
-    grid-template-columns: repeat(2, 312px);
+@media screen and (min-width: 1280px) {
+  #content {
+    padding: 0 200px;
+  }
+
+  .site {
+    max-width: 800px;
+    width: 350px;
   }
 }
